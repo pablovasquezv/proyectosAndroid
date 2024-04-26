@@ -104,12 +104,12 @@
 							android:layout_height="21dp" />
 
 						<ImageView android:id="@+id/path"
-							android:src="@drawable/path"
-							android:contentDescription="path"
-							 android:layout_marginStart="4dp"
-							android:layout_marginTop="4dp"
-							android:layout_width="12.25dp"
-							android:layout_height="12.25dp" />
+								   android:src="@drawable/path"
+								   android:contentDescription="path"
+								   android:layout_marginStart="4dp"
+								   android:layout_marginTop="4dp"
+								   android:layout_width="wrap_content"
+								   android:layout_height="wrap_content"/>
 
 					</RelativeLayout>
 
@@ -238,14 +238,14 @@
 						 />
 
 					<TextView android:id="@+id/reem_khaled"
-						android:textSize="14sp"
-						android:textColor="@color/add_payment_note_color"
-						android:layout_marginLeft="72dp"
-						android:layout_marginTop="10dp"
-						android:layout_width="88.4dp"
-						android:layout_height="25.4dp"
-						android:text="@string/reem_khaled_string"
-						 />
+							  android:textSize="14sp"
+							  android:textColor="@color/add_payment_note_color"
+							  android:layout_marginLeft="72dp"
+							  android:layout_marginTop="10dp"
+							  android:layout_width="88.4dp"
+							  android:layout_height="25.4dp"
+							  android:text="@string/reem_khaled_string"
+					/>
 
 					<ImageView android:id="@+id/profile_picture"
 						android:src="@drawable/profile_picture"
@@ -314,13 +314,13 @@
 							android:layout_width="24dp"
 							android:layout_height="24dp" />
 
-						<View   android:id="@+id/rectangle_ek7"
-							android:background="@drawable/rectangle_ek7_shape"
-							 android:alpha="0.0001"
-							 android:layout_marginStart="0dp"
-							android:layout_marginTop="0dp"
-							android:layout_width="24dp"
-							android:layout_height="24dp" />
+						<View android:id="@+id/rectangle_ek7"
+							  android:background="@drawable/rectangle_ek7_shape"
+							  android:alpha="0.0001"
+							  android:layout_marginStart="0dp"
+							  android:layout_marginTop="0dp"
+							  android:layout_width="match_parent"
+							  android:layout_height="17dp"/>
 
 
 						<RelativeLayout android:id="@+id/short_arrow_left"
@@ -338,12 +338,12 @@
 								android:layout_height="11dp" />
 
 							<ImageView android:id="@+id/shape"
-								android:src="@drawable/shape"
-								android:contentDescription="shape"
-								 android:layout_marginStart="-2dp"
-								android:layout_marginTop="-2dp"
-								android:layout_width="14dp"
-								android:layout_height="11dp" />
+									   android:src="@drawable/shape"
+									   android:contentDescription="shape"
+									   android:layout_marginStart="-2dp"
+									   android:layout_marginTop="-2dp"
+									   android:layout_width="13dp"
+									   android:layout_height="10dp"/>
 
 						</RelativeLayout>
 
@@ -351,82 +351,82 @@
 
 
 					<RelativeLayout android:id="@+id/status_bar"
-						android:layout_marginTop="0dp"
-						android:layout_marginStart="0dp"
-						android:layout_width="wrap_content"
-						android:layout_height="wrap_content"
-						>
+									android:layout_marginTop="0dp"
+									android:layout_marginStart="0dp"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+					>
 
-						<View   android:id="@+id/_bg__status_bar_ek1"
-							android:background="@drawable/_bg__status_bar_ek1_shape"
-							 android:layout_marginStart="0dp"
-							android:layout_marginTop="0dp"
-							android:layout_width="375dp"
-							android:layout_height="40dp" />
+						<View android:id="@+id/_bg__status_bar_ek1"
+							  android:background="@drawable/_bg__status_bar_ek1_shape"
+							  android:layout_marginStart="0dp"
+							  android:layout_marginTop="0dp"
+							  android:layout_width="375dp"
+							  android:layout_height="40dp"/>
 
-						<View   android:id="@+id/rectangle_ek8"
-							android:background="@drawable/rectangle_ek8_shape"
-							 android:alpha="0.0001"
-							 android:layout_marginStart="0dp"
-							android:layout_marginTop="0dp"
-							android:layout_width="375dp"
-							android:layout_height="40dp" />
+						<View android:id="@+id/rectangle_ek8"
+							  android:background="@drawable/rectangle_ek8_shape"
+							  android:alpha="0.0001"
+							  android:layout_marginStart="0dp"
+							  android:layout_marginTop="0dp"
+							  android:layout_width="375dp"
+							  android:layout_height="40dp"/>
 
 						<ImageView android:id="@+id/path_ek1"
-							android:src="@drawable/path_ek1"
-							android:contentDescription="path_ek1"
-							 android:layout_marginStart="326dp"
-							android:layout_marginTop="13dp"
-							android:layout_width="23dp"
-							android:layout_height="12.33dp" />
+								   android:src="@drawable/path_ek1"
+								   android:contentDescription="path_ek1"
+								   android:layout_marginStart="326dp"
+								   android:layout_marginTop="13dp"
+								   android:layout_width="23dp"
+								   android:layout_height="12.33dp"/>
 
 						<ImageView android:id="@+id/path_ek2"
-							android:src="@drawable/path_ek2"
-							android:contentDescription="path_ek2"
-							 android:layout_marginStart="327dp"
-							android:layout_marginTop="14dp"
-							android:layout_width="22dp"
-							android:layout_height="11.33dp" />
+								   android:src="@drawable/path_ek2"
+								   android:contentDescription="path_ek2"
+								   android:layout_marginStart="327dp"
+								   android:layout_marginTop="14dp"
+								   android:layout_width="22dp"
+								   android:layout_height="11.33dp"/>
 
 						<ImageView android:id="@+id/path_ek3"
-							android:src="@drawable/path_ek3"
-							android:contentDescription="path_ek3"
-							 android:layout_marginStart="350dp"
-							android:layout_marginTop="18dp"
-							android:layout_width="1.33dp"
-							android:layout_height="4dp" />
+								   android:src="@drawable/path_ek3"
+								   android:contentDescription="path_ek3"
+								   android:layout_marginStart="350dp"
+								   android:layout_marginTop="18dp"
+								   android:layout_width="1.33dp"
+								   android:layout_height="4dp"/>
 
 						<ImageView android:id="@+id/path_ek4"
-							android:src="@drawable/path_ek4"
-							android:contentDescription="path_ek4"
-							 android:layout_marginStart="329dp"
-							android:layout_marginTop="16dp"
-							android:layout_width="18dp"
-							android:layout_height="7.33dp" />
+								   android:src="@drawable/path_ek4"
+								   android:contentDescription="path_ek4"
+								   android:layout_marginStart="329dp"
+								   android:layout_marginTop="16dp"
+								   android:layout_width="18dp"
+								   android:layout_height="7.33dp"/>
 
 						<ImageView android:id="@+id/shape_ek1"
-							android:src="@drawable/shape_ek1"
-							android:contentDescription="shape_ek1"
-							 android:layout_marginStart="307dp"
-							android:layout_marginTop="14dp"
-							android:layout_width="15.28dp"
-							android:layout_height="10.97dp" />
+								   android:src="@drawable/shape_ek1"
+								   android:contentDescription="shape_ek1"
+								   android:layout_marginStart="307dp"
+								   android:layout_marginTop="14dp"
+								   android:layout_width="15.28dp"
+								   android:layout_height="10.97dp"/>
 
 						<ImageView android:id="@+id/shape_ek2"
-							android:src="@drawable/shape_ek2"
-							android:contentDescription="shape_ek2"
-							 android:layout_marginStart="285dp"
-							android:layout_marginTop="14dp"
-							android:layout_width="17dp"
-							android:layout_height="10.67dp" />
+								   android:src="@drawable/shape_ek2"
+								   android:contentDescription="shape_ek2"
+								   android:layout_marginStart="285dp"
+								   android:layout_marginTop="14dp"
+								   android:layout_width="17dp"
+								   android:layout_height="10.67dp"/>
 
 						<ImageView android:id="@+id/shape_ek3"
-							android:src="@drawable/shape_ek3"
-							android:contentDescription="shape_ek3"
-							 android:layout_marginStart="24dp"
-							android:layout_marginTop="15dp"
-							android:layout_width="27.45dp"
-							android:layout_height="10.36dp" />
+								   android:src="@drawable/shape_ek3"
+								   android:contentDescription="shape_ek3"
+								   android:layout_marginStart="24dp"
+								   android:layout_marginTop="15dp"
+								   android:layout_width="27.45dp"
+								   android:layout_height="10.36dp"/>
 
 					</RelativeLayout>
 

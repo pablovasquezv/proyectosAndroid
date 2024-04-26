@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+
+
+    <RelativeLayout android:id="@+id/page__16__request_money_ek1"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+    >
+    <RelativeLayout android:id="@+id/request_button"
+                    android:layout_marginTop="747dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+    >
+
+        <RelativeLayout android:id="@+id/payment_note"
+                        android:layout_marginTop="335dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+        >
+
+
+            <View android:id="@+id/rectangle_ek3"
+                  android:background="@drawable/rectangle_ek3_shape"
+                  android:layout_marginStart="-1dp"
+                  android:layout_width="345dp"
+                  android:layout_height="200dp"/>
+            <TextView android:id="@+id/add_payment_note"
+                      android:alpha="0.2494"
+                      android:textSize="14sp"
+                      android:textColor="@color/add_payment_note_color"
+                      android:layout_marginLeft="14dp"
+                      android:layout_marginTop="43dp"
+                      android:layout_width="268.4dp"
+                      android:layout_height="25.4dp"
+                      android:text="@string/add_payment_note_string"
+            />
+
+            <TextView android:id="@+id/payment_note_ek2"
+                      android:textSize="14sp"
+                      android:textColor="@color/add_payment_note_color"
+                      android:layout_marginLeft="0dp"
+                      android:layout_marginTop="0dp"
+                      android:layout_width="155.4dp"
+                      android:layout_height="25.4dp"
+                      android:text="@string/payment_note_ek2_string"
+            />
+
+        </RelativeLayout>
+        <ImageView android:id="@+id/profile_picture"
+                   android:src="@drawable/profile_picture"
+                   android:contentDescription="profile_picture"
+                   android:layout_width="60dp"
+                   android:layout_height="60dp"
+        />
+        <ImageView android:id="@+id/shape"
+                   android:src="@drawable/shape"
+                   android:contentDescription="shape"
+                   android:layout_width="13dp"
+                   android:layout_height="10dp"
+        />
+    </RelativeLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
